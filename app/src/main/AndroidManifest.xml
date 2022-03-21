@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.jts.agrodei">
+	
+	<application
+		android:allowBackup="true"
+		android:icon="@mipmap/ic_launcher"
+		android:label="@string/app_name"
+		android:roundIcon="@mipmap/ic_launcher_round"
+		android:supportsRtl="true"
+		android:theme="@style/Theme.Agrodei">
+		<activity
+			android:name=".TestAct"
+			android:exported="true"
+			android:label="@string/title_activity_test"
+			android:theme="@style/Theme.Agrodei.NoActionBar"/>
+		<activity
+			android:name=".acitivties.others.Account"
+			android:exported="true"
+			android:label=""
+			android:theme="@style/Theme.Agrodei.Account">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"/>
+				
+				<category android:name="android.intent.category.LAUNCHER"/>
+			</intent-filter>
+		</activity>
+		<activity
+			android:name=".acitivties.others.Home"
+			android:exported="true"
+			android:label=""
+			android:theme="@style/Theme.Agrodei.NoActionBar">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"/>
+				
+				<category android:name="android.intent.category.LAUNCHER"/>
+			</intent-filter>
+		</activity>
+		<activity
+			android:name=".acitivties.init.VerificationCode"
+			android:exported="true"
+			android:theme="@style/Theme.Agrodei.VerificationCode">
+		</activity>
+		<activity
+			android:name=".acitivties.init.SendCode"
+			android:exported="true"
+			android:theme="@style/Theme.Agrodei.SendCode">
+		</activity>
+		<activity
+			android:name=".acitivties.init.Init"
+			android:exported="true"
+			android:screenOrientation="portrait">
+		</activity>
+		<activity
+			android:name=".ScrollingActivity"
+			android:exported="true"
+			android:label="@string/app_name"
+			android:theme="@style/Theme.Agrodei.NoActionBar">
+		</activity>
+	</application>
+
+</manifest>

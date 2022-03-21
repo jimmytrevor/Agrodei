@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".acitivties.others.Home">
+	<item android:id="@+id/action_category"
+	      android:title="@string/action_cats"
+	      android:icon="@drawable/ic_baseline_account_balance_wallet"
+	      app:showAsAction="always"
+	      />
+</menu>

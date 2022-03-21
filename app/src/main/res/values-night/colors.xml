@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<color name="text_adaptive">#FDFDFD</color>
+	<color name="icon_adaptive">#FDFDFD</color>
+	<color name="theme_adaptive">#111111</color>
+	
+	<color name="main_color">#111111</color>
+	<color name="layout_on_main">#2D2D2D</color>
+</resources>
